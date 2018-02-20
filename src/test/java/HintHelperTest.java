@@ -5,25 +5,25 @@ import static org.junit.Assert.assertTrue;
 public class HintHelperTest {
     @Test
     public void canHelperConfirmLowerNumberPick() {
-        //arange
+        //given
         IHintHelper helper = new HintHelperImpl();
 
-        //act
+        //when
         boolean isLover = helper.isLower(100,50);
 
-        //assert
+        //then
         assertTrue(isLover);
     }
 
     @Test
     public void isHigher() {
-        //arange
+        //given
         IHintHelper helper = new HintHelperImpl();
 
-        //act
+        //when
         boolean isHigher = helper.isHigher(50,500);
 
-        //assert
+        //then
         assertTrue(isHigher);
     }
 }
