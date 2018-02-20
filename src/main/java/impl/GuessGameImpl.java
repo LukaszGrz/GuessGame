@@ -1,3 +1,8 @@
+package impl;
+
+import interfaces.*;
+import msg.Messages;
+
 import java.util.Random;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package msg;
+
 public class Messages {
     public static final String winMessage = "Wygrałeś!!";
     public static final String loseMessage = "Przegrales!!";

@@ -1,3 +1,7 @@
+package impl;
+
+import interfaces.IHintHelper;
+
 public class HintHelperImpl implements IHintHelper {
     @Override
     public boolean isLower(int expected, int actual) {

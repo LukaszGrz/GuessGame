@@ -1,3 +1,5 @@
+import impl.UserInputImpl;
+import interfaces.IUserInput;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

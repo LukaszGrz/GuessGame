@@ -1,3 +1,7 @@
+package impl;
+
+import interfaces.IUserInput;
+
 public class UserInputImpl implements IUserInput {
     String userInput;
     @Override

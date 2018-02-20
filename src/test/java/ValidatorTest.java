@@ -1,3 +1,5 @@
+import impl.ValidatorImpl;
+import interfaces.IValidator;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

@@ -1,3 +1,7 @@
+package impl;
+
+import interfaces.IChanceTracker;
+
 public class ChanceTrackerImpl implements IChanceTracker {
     private int chanceLimit;
 

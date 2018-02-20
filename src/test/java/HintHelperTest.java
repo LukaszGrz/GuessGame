@@ -1,3 +1,5 @@
+import impl.HintHelperImpl;
+import interfaces.IHintHelper;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
